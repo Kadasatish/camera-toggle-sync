@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Camera Toggle Sync</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dot" id="dot"></div>
+  <label class="switch">
+    <input type="checkbox" id="toggleCam">
+    <span class="slider"></span>
+  </label>
+  <video id="video" autoplay playsinline></video>
+
+  <!-- Socket.IO CDN -->
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <!-- Link JS -->
+  <script src="main.js"></script>
+</body>
+</html>
