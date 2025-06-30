@@ -1,4 +1,4 @@
-const socket = io("https://your-render-backend.onrender.com");
+const socket = io("https://camera-toggle-sync.onrender.com");
 
 const toggleCam = document.getElementById("toggleCam");
 const video = document.getElementById("video");
